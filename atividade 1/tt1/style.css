@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,200;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+  
+}
+
+#container-grid-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 700px; 
+}
+
+
+
+.nav-home {
+    border: 1px solid rgb(129, 49, 49) ;
+    grid-column: 1 / -1;
+    grid-row: 1;
+    background:#9f102c;  
+}   
+
+#text-welcome {
+    border: 1px solid rgb(32, 101, 204) ;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#text-welcome h1{
+    font-size: 50px;
+}
+
+#text-welcome p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #9f102c;
+}
+
+#info-doacao {
+    border: 1px solid rgb(39, 212, 53) ;
+}
