@@ -17,6 +17,7 @@
             </ul>
         </div>
         <div id="text-welcome">
+            <img src="img/png-transparent-blood-donation-blood-transfusion-simple-blood-bag-miscellaneous-text-donation-thumbnail-removebg-preview.png" alt="" width="34px">
             <h1>
                 Bem-vindo à Doação Sanguínea!
             </h1>
@@ -46,7 +47,7 @@
                 <p>
                     Descubra como o simples ato de doar sangue pode salvar vidas e como você pode se tornar
                     um doador regular para ajudar a manter os estoques sanguíneos.
-                </p>
+                </p> 
             </div>
         </div>
         <div id="calculo-doador"> 
