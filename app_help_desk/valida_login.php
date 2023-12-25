@@ -16,7 +16,6 @@
 	);
 
 	foreach($usuarios_app as $user) {
-
 		if($user['email'] == $_POST['email'] && $user['senha'] == $_POST['senha']) {
 			$usuario_autenticado = true;
 			$usuario_id = $user['id'];
@@ -24,6 +23,7 @@
 		}
 
 	}
+
 
 	if($usuario_autenticado) {
 		echo 'Usuário autencicado';
